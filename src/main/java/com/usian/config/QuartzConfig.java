@@ -16,7 +16,7 @@ public class QuartzConfig {
         return factory;
     }
 
-
+    //123123
     //2.trigger-触发
     public CronTriggerFactoryBean getCronTriggerFactoryBean(JobDetailFactoryBean job){
         CronTriggerFactoryBean factory = new CronTriggerFactoryBean();
